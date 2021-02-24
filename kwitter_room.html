@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Chat Room</title>
+    <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+    <script src="kwitter_room.js"></script>
+</head>
+<body>
+    <button id="logout_button" class="btn btn-danger" onclick="logOut()">Log Out</button>
+    <center>
+        <span id="welcome">Welcome, <span id="user_name"></span></span>
+        <div id="container">
+            <input type="text" id="room_name" placeholder="Enter Room Name">
+            <button onclick="addRoom()">Join Room</button>
+        </div>
+        <div id="output"></div>    
+    </center>
+
+</body>
+</html>
